@@ -4,9 +4,9 @@
 ### The goal is to find similarities between biological molecules, each letter represents a chemical entity and a series of letters represents the structure of a molecule.
 ### The project solves the problem of series comparison and is called in biology "sequence alignment".
 ### To calculate the alignment score we compare two series:
-* ### If the letters are the same we will mark the pair with $
-* ### If the letters belong to a first type group we will mark the pair with %
-* ### If the letters belong to a second type group we will mark the pair with the sign #
+* ### If the letters are the same we will mark the pair with '$'
+* ### If the letters belong to a first type group we will mark the pair with '%'
+* ### If the letters belong to a second type group we will mark the pair with the sign '#'
 * ### Else we will mark ' '
 
 ## The groups:
@@ -23,7 +23,7 @@
 
 ## The formula for calculating the score:
 ### alignment score = W1 * numberOfDollars - W2 * NumberOfPercents - W3 * NumberOfHashes - W4 * NumberOfSpaces 
-* W1, W2, W3, W4 are non-negative integers that will appear in the input 
+* ### W1, W2, W3, W4 are non-negative integers that will appear in the input 
 
 ## Offset and Mutant Sequence
 ### Write Seq2 below Seq1 in a possible offset when offset >= 0. Seq2 letters must not appear beyond the end of Seq1.
