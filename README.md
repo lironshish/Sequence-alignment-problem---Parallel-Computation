@@ -27,11 +27,10 @@
 
 ## Offset and Mutant Sequence
 ### Write Seq2 below Seq1 in a possible offset when offset >= 0. Seq2 letters must not appear beyond the end of Seq1.
-
+### We will define the Mutant Sequence to be marked in MS(k) as the series of letters obtained by adding a hyphen after the k sign in seq when k = 1, 2,… (strlen (seq)).
 
 ## Problem Description:
 ### For given strings Seq1, Seq2 where Seq2 is shorter, we will look for the offset and the MS(k) mutation of Seq2 for which it will be accepted the maximum alignment score when comparing the Seq2 mutation to Seq1.
-### We will define the Mutant Sequence to be marked in MS(k) as the series of letters obtained by adding a hyphen after the k sign in seq when k = 1, 2,… (strlen (seq)).
 
 ## Utils
 ### The project was written using MPI, OpenMP and Cuda in Linux environment
