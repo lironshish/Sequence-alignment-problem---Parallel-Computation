@@ -11,15 +11,15 @@
 
 ## The groups:
 * ### First type group:
-  ### NDEQ NEQK STA
-  ### MILV QHRK NHQK
-  ### FYW HY MILF
+  ##### NDEQ NEQK STA
+  ##### MILV QHRK NHQK
+  ##### FYW HY MILF
 
 * ### Second type group:
-  ### SAG ATV CSA
-  ### SGND STPA STNK
-  ### NEQHRK NDEQHK SNDEQK
-  ### HFY FVLIM
+  ##### SAG ATV CSA
+  ##### SGND STPA STNK
+  ##### NEQHRK NDEQHK SNDEQK
+  ##### HFY FVLIM
 
 ## The formula for calculating the score:
 ### alignment score = W1 * numberOfDollars - W2 * NumberOfPercents - W3 * NumberOfHashes - W4 * NumberOfSpaces 
